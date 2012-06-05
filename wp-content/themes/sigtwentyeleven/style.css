@@ -1,0 +1,119 @@
+/*
+Theme Name: Skill in Games Twenty Eleven
+Theme URI: http://www.skillingames.com
+Description: Child theme of Twenty Eleven created for Skill in Games
+Template: twentyeleven
+Version: 1.0
+Author: Jordan Gurrieri, Blue Label Labs
+Author URI: http://www.bluelabellabs.com
+Copyright © 2012 Skill in Games. All rights reserved.
+*/
+
+@import url('../twentyeleven/style.css');
+
+body {
+	font-family: Hoefler Text, Georgia, Serif;
+}
+
+#page {
+	float: left;
+	background-color: transparent;
+}
+
+/* =Structure
+----------------------------------------------- */
+
+/* One column */
+.one-column #page {
+	max-width: 750px;
+	width: 750px;
+}
+
+.one-column #content {
+	margin: 0 7.6%;
+	max-width: 750px;
+	width: 750px;
+}
+
+
+/* =Header
+----------------------------------------------- */
+
+#site-title {
+	float: left;
+	width:300px;
+	height:69px;
+	
+	padding-bottom: 0;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 12.65625em;
+}
+
+#site-description {
+	display: none;	/*remove the description*/
+	
+	/* Move the site description off the visible screen but keep it active for SEO purposes */
+	/*float: left;
+	margin-bottom: 0;
+	margin-top: 0;
+	text-indent:-9999px;*/
+}
+
+#branding {
+	border-top: medium none;
+}
+
+#header_contact {
+	position:absolute;
+	width:103px;
+	height:35px;
+	margin-left:600px;
+	
+	padding-bottom: 0;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 14.35625em;
+}
+
+#silhouette {
+	position:absolute;
+	left:0px;
+	top:0px;
+	z-index:-1;
+}
+
+
+/* =Content
+----------------------------------------------- */
+
+/* Singular content styles for Posts and Pages */
+
+.singular .entry-title,
+.singular .entry-header .entry-meta {
+	display: none;	/*remove the header*/
+}
+
+/*img[class*="align"], img[class*="wp-image-"], #content img {
+  border: 1px solid #FFFFFF;
+  padding: 6px;
+}
+
+a:focus img[class*="align"], a:hover img[class*="align"], a:active img[class*="align"], a:focus img[class*="wp-image-"], a:hover img[class*="wp-image-"], a:active img[class*="wp-image-"], #content .gallery .gallery-icon a:focus img, #content .gallery .gallery-icon a:hover img, #content .gallery .gallery-icon a:active img {
+  background: none repeat scroll 0 0 #FFFFFF;
+  border-color: #FFFFFF;
+}*/
+
+
+
+/* =Menu
+-------------------------------------------------------------- */
+#access {
+	display: none;
+}
+
+#branding #searchform {
+	display: none;
+}
+
+
